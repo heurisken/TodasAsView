@@ -54,8 +54,12 @@ public class MainActivity extends AppCompatActivity {
                 abrir( ViewSpinner.class );
                 break;
 
-            case R.id.button_toast:
+            case R.id.button_imageView:
                 abrir( ViewImage.class);
+                break;
+
+            case R.id.button_recyclerView:
+                abrir( ViewRecycler.class);
                 break;
 
         }

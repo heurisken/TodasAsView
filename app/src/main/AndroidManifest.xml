@@ -21,7 +21,8 @@
         <activity android:name=".ViewCheckBox" />
         <activity android:name=".ViewRadioButton" />
         <activity android:name=".ViewSpinner" />
-        <activity android:name=".ViewImage"></activity>
+        <activity android:name=".ViewImage" />
+        <activity android:name=".ViewRecycler"></activity>
     </application>
 
 </manifest>
