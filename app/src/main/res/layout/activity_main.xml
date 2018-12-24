@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="@string/main_TextView_escolha"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@android:color/holo_orange_dark" />
+
+    <Button
+        android:id="@+id/button_textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:clickable="true"
+        android:onClick="selecionar"
+        android:text="@string/main_button_textView"
+        app:layout_constraintBottom_toTopOf="@+id/button_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button_button"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:clickable="true"
+        android:onClick="selecionar"
+        android:text="@string/main_button_button"
+        app:layout_constraintBottom_toTopOf="@+id/button_checkBox"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_textView" />
+
+    <Button
+        android:id="@+id/button_checkBox"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:clickable="true"
+        android:onClick="selecionar"
+        android:text="@string/main_button_checkBox"
+        app:layout_constraintBottom_toTopOf="@+id/button_radioButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_button" />
+
+    <Button
+        android:id="@+id/button_radioButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:clickable="true"
+        android:onClick="selecionar"
+        android:text="@string/main_button_radioButton"
+        app:layout_constraintBottom_toTopOf="@+id/button_spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_checkBox" />
+
+    <Button
+        android:id="@+id/button_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:clickable="true"
+        android:onClick="selecionar"
+        android:text="@string/main_button_spinner"
+        app:layout_constraintBottom_toTopOf="@+id/button_toast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_radioButton" />
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:clickable="true"
+        android:onClick="selecionar"
+        android:text="@string/main_button_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_spinner" />
+
+
+</android.support.constraint.ConstraintLayout>

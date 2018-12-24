@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">TodasAsView</string>
+    <string name="main_button_textView">TextView e EditText</string>
+    <string name="main_button_button">Button e ImageButton</string>
+    <string name="main_button_checkBox">CheckBox e ToggleButton</string>
+    <string name="main_button_radioButton">RadioButton</string>
+    <string name="main_button_spinner">Spinner</string>
+    <string name="main_button_image">ImageView</string>
+    <string name="main_TextView_escolha">Escolha uma View:</string>
+    <string name="textView_TextView_titulo">Exemplo de TextView simples</string>
+    <string name="textView_editText_email">email@mail.com.br</string>
+    <string name="textView_editText_nome">Nome completo</string>
+    <string name="textView_editText_senha">Senha numérica</string>
+    <string name="textView_button_enviar">Enviar</string>
+    <string name="button_textView_titulo">Button e ImageButton</string>
+    <string name="spinner_textView_spinner">Spinner</string>
+    <string name="spinner_spinner_01">Gerado a partir de xml</string>
+    <string name="textView_autoCompletTextView">Cor favorita</string>
+    <string name="viewCheckBox_titulo">CheckBox and ToogleButton</string>
+    <string name="checkBox_checkBox_titulo">Exemplo de CheckBox</string>
+    <string name="viewCheckBox_checkBox_nao">Não</string>
+    <string name="viewCheckBox_checkBox_sim">Sim</string>
+    <string name="viewCheckBox_toogleButton_titulo">Exemplo de Toogle Button</string>
+    <string name="viewCheckBox_ToggleButton1">Sim</string>
+    <string name="viewCheckBox_ToggleButton2">Não</string>
+    <string name="viewCheckBox_button_enviar">Enviar</string>
+    <string name="desligado">Desligado!</string>
+    <string name="ligado">Ligado!</string>
+    <string name="RadioButton_titulo">RadioButton e RadioGroup</string>
+    <string name="feminino">Feminino</string>
+    <string name="masculino">Masculino</string>
+    <string name="RadioButton_textView_sexo">Qual o sexo?</string>
+    <string name="image_TextView_titulo">ImageView</string>
+    <string name="viewImage_imagem1_descricao">Controle de Play4</string>
+</resources>
